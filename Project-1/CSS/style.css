@@ -1,0 +1,1050 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Header Start */
+
+body{
+    display: block;
+    max-width: 100%;
+}
+
+.Header {
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    background: white;
+    z-index: 10000;
+    padding: 30px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    top: 0px;
+}
+
+.Header span a {
+    color: black;
+    font-size: 18px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px gray;
+    padding: 13px;
+    display: none;
+}
+
+.Header span a:hover {
+    color: #fcb900;
+}
+
+.Header .logo img {
+    width: 122px;
+}
+
+.Header .nav li {
+    display: inline;
+    position: relative;
+    padding-bottom: 49px;
+}
+
+.Header .nav li::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    height: 5px;
+    background-color: #fcb900;
+}
+
+.Header .nav li a {
+    color: black;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 25px;
+}
+
+.Header .nav li a:hover {
+    color: #fcb900;
+}
+
+.fa-chevron-down {
+    margin: 0px 6px;
+    font-size: 12px;
+}
+
+.home-hovrer-toolkit {
+    width: 950px;
+    background-color: white;
+    padding: 5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 99%;
+    display: none;
+    z-index: 1;
+}
+
+.home-hovrer-toolkit .home-details {
+    width: 25%;
+    margin-bottom: 13px;
+}
+
+.home-hovrer-toolkit .home-details img {
+    padding: 0px 13px;
+    height: 200px;
+    object-fit: cover;
+    transition: 0.6s;
+}
+
+.home-hovrer-toolkit .home-details img:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.home-hovrer-toolkit .home-details h2 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 2px;
+    font-family: 'Londrina Solid';
+    letter-spacing: 0.5px;
+}
+
+.Home-Section:hover .home-hovrer-toolkit {
+    display: flex;
+}
+
+.shop-hovrer-toolkit {
+    width: 950px;
+    background-color: white;
+    padding: 25px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 99%;
+    display: none;
+    z-index: 1;
+}
+
+.shop-hovrer-toolkit .shop-details {
+    text-align: left;
+}
+
+.shop-hovrer-toolkit .shop-details h2 {
+    font-size: 17px;
+    font-family: Londrina Solid;
+    margin: 14px 0px;
+    letter-spacing: 0.6px;
+}
+
+.shop-hovrer-toolkit .shop-details li {
+    display: block;
+    padding: 8px 0px;
+}
+
+.shop-hovrer-toolkit .shop-details li a {
+    color: rgba(102, 102, 102, 0.9);
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+
+.Shop-Section:hover .shop-hovrer-toolkit {
+    display: flex;
+}
+
+.product-hovrer-toolkit {
+    width: 950px;
+    background-color: white;
+    padding: 25px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: space-around;
+    top: 99%;
+    display: none;
+    z-index: 1;
+}
+
+.product-hovrer-toolkit .product-details {
+    text-align: left;
+}
+
+.product-hovrer-toolkit .product-details h2 {
+    font-size: 17px;
+    font-family: Londrina Solid;
+    margin: 14px 0px;
+    letter-spacing: 0.6px;
+}
+
+.product-hovrer-toolkit .product-details li {
+    display: block;
+    padding: 8px 0px;
+}
+
+.product-hovrer-toolkit .product-details li a {
+    color: rgba(102, 102, 102, 0.9);
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    margin: 0;
+    font-weight: normal;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+
+.Product-Section:hover .product-hovrer-toolkit {
+    display: flex;
+}
+
+.blog-hovrer-toolkit {
+    width: 950px;
+    background-color: white;
+    padding: 25px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 99%;
+    display: none;
+    z-index: 1;
+}
+
+.blog-hovrer-toolkit .blog-details {
+    width: 25%;
+    text-align: left;
+}
+
+.blog-hovrer-toolkit .blog-details h2 {
+    font-size: 17px;
+    font-family: Londrina Solid;
+    margin: 14px 0px;
+    letter-spacing: 0.6px;
+}
+
+.blog-hovrer-toolkit .blog-details li {
+    display: block;
+    padding: 8px 0px;
+}
+
+.blog-hovrer-toolkit .blog-details li a {
+    color: rgba(102, 102, 102, 0.9);
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    margin: 0;
+    font-weight: normal;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+
+.blog_details_section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 125px;
+}
+
+.blog_details_section-image {
+    width: 160px;
+    height: 92px;
+    object-fit: contain;
+    margin: 10px 10px 3px -10px;
+}
+
+.blog_details_section .blog_details_section-contant {
+    margin: 26px 0px;
+}
+
+.blog_details_section .blog_details_section-contant h4 {
+    color: black;
+    font-size: 13px;
+    font-family: Londrina Solid;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 8px 0px;
+    transition: 0.5s;
+}
+
+.blog_details_section .blog_details_section-contant h4:hover {
+    color: #fcb900;
+    cursor: pointer;
+}
+
+.blog_details_section .blog_details_section-contant h5 {
+    color: rgba(102, 102, 102, 0.9);
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.Blog-Section:hover .blog-hovrer-toolkit {
+    display: flex;
+}
+
+.page-hovrer-toolkit {
+    width: 185px;
+    background-color: white;
+    padding: 20px 15px;
+    position: absolute;
+    top: 25%;
+    left: 22%;
+    display: none;
+    z-index: 1;
+}
+
+.page-hovrer-toolkit .page-details {
+    text-align: left;
+}
+
+.page-hovrer-toolkit .page-details li {
+    display: block;
+    padding: 8px 0px;
+}
+
+.page-hovrer-toolkit .page-details li a {
+    color: rgba(102, 102, 102, 0.9);
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    font-weight: normal;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+
+.Page-Section:hover .page-hovrer-toolkit {
+    display: block;
+}
+
+.Header .contact {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Header .contact .contact-details {
+    width: inherit;
+}
+
+.Header .contact .contact-details img {
+    width: 50px;
+    background-color: #FFA200;
+    border-radius: 50%;
+    padding: 16px;
+    float: left;
+    margin-right: 10px;
+}
+
+.Header .contact .contact-details p {
+    font-size: 15px;
+    margin: 6px;
+    cursor: pointer;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+.Header .contact .contact-details .number {
+    font-family: 'Londrina Solid';
+    letter-spacing: 1px;
+}
+
+.Header .contact .contact-details p:hover {
+    color: #fcb900;
+}
+
+.Header .contact .contact-icon {
+    display: inline;
+}
+
+.Header .contact .contact-icon a .nav-icon,
+.Header .contact .contact-icon a .nav-icon .Baske {
+    color: black;
+    float: left;
+    margin: 6px 25px 0px 0px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px gray;
+    padding: 11px;
+    position: relative;
+}
+
+.Heart::after {
+    content: "0";
+    position: absolute;
+    top: 5%;
+    left: 65%;
+    background-color: #fcb900;
+    color: white;
+    font-weight: normal;
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.Baske::after {
+    content: "0";
+    position: absolute;
+    top: 5%;
+    left: 65%;
+    background-color: #fcb900;
+    color: white;
+    font-weight: normal;
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.Header .contact .contact-icon a .nav-icon:hover {
+    color: #fcb900;
+}
+
+/* Header End */
+
+
+
+/* SLIDER-1 START  */
+
+.slider {
+    background: url(../Images/Slider-1_Banner.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 78vh;
+}
+
+.slider .slider1_content {
+    padding-top: 200px;
+}
+
+.slider h3 {
+    font-family: 'Londrina Solid';
+    color: #B11200;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+
+.slider h3::after {
+    content: url(../Images/Slider-1_Banner-1_effect.png);
+    position: absolute;
+    bottom: -30%;
+    left: 59%;
+    animation: banner-effect1 0.9s linear infinite alternate;
+}
+
+@keyframes banner-effect1 {
+    from {
+        transform: scaleX(0.7);
+    }
+
+    to {
+        transform: scaleX(1);
+    }
+}
+
+.slider h1 {
+    font-family: 'Londrina Solid';
+    font-size: 46px;
+    margin: 18px;
+    letter-spacing: 0.5px;
+}
+
+.slider button {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 35px;
+    padding: 12px 32px;
+    letter-spacing: 0.5px;
+    border: 2px solid transparent;
+    margin: 12px;
+    transition: 0.5s;
+}
+
+.slider button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* SLIDER-1 END  */
+
+
+/* SECTION-1 START  */
+
+
+.section-1 .part-1 {
+    display: flex;
+    padding: 0px 130px;
+    flex-wrap: wrap;
+}
+
+.section-1 .part-1 .section-1_part-1_details {
+    margin: auto;
+}
+
+.section-1 .part-1 .section-1_part-1_details .section-1_part-1_image {
+    margin: auto;
+    height: 75px;
+    width: 77px;
+}
+
+.section-1 .part-1 .section-1_part-1_details .section-1_part-1_image:hover {
+    cursor: pointer;
+    animation: image-transform 0.3s 4 linear alternate;
+}
+
+@keyframes image-transform {
+    0% {
+        transform: translate(0px);
+    }
+
+    50% {
+        transform: translate(10px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+.section-1 .part-1 .section-1_part-1_details .section-1_part-1_info {
+    text-align: center;
+    margin: 12px;
+}
+
+.section-1 .part-1 .section-1_part-1_details .section-1_part-1_info h3 {
+    margin: 5px;
+    font-family: 'Londrina Solid';
+    font-weight: normal;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.section-1 .part-1 .section-1_part-1_details .section-1_part-1_info p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    transition: 0.5s;
+    letter-spacing: px;
+}
+
+.section-1 .part-1 .section-1_part-1_errow {
+    height: 18px;
+    width: 60px;
+    margin: 135px 70px;
+}
+
+.section-1 .part-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.section-1 .part-2 .section-1_part-2_details-1 {
+    width: 685px;
+    border: 2px solid white;
+    border-radius: 18px;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-1 .part-2 .section-1_part-2_details-1 .section-1_part-2_image {
+    transition: 1s;
+}
+
+.section-1 .part-2 .section-1_part-2_details-1 .section-1_part-2_info-1 {
+    position: absolute;
+    width: 360px;
+    top: 25%;
+    left: 10%;
+}
+
+.section-1 .part-2 .section-1_part-2_details-1:hover .section-1_part-2_image {
+    transform: scale(1.2);
+}
+
+.section-1 .part-2 .section-1_part-2_details-1 .section-1_part-2_info-1 h4 {
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Instrument Serif', serif;
+    margin-bottom: 12px;
+}
+
+.section-1 .part-2 .section-1_part-2_details-1 .section-1_part-2_info-1 h5 {
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-bottom: 22px;
+    margin-top: 0;
+    font-family: Londrina Solid, cursive;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.section-1 .part-2 .section-1_part-2_details-1 .section-1_part-2_info-1 button {
+    font-size: 14px;
+    line-height: 48px;
+    border-radius: 50px;
+    padding: 0px 40px;
+    color: white;
+    background-color: #EC5030;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.section-1 .part-2 .section-1_part-2_details-1 .section-1_part-2_info-1 button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+.section-1 .part-2 .section-1_part-2_details-1 .section-1_part-2_info-2 h4 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: Londrina Solid, cursive;
+    font-weight: normal;
+}
+
+.section-1 .part-2 .section-1_part-2_details-1 .section-1_part-2_info-2 h5 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+}
+
+.section-1 .part-2 .section-1_part-2_details-1 .section-1_part-2_info-2 button {
+    background-color: #821E04;
+}
+
+/* SECTION-1 END  */
+
+
+/* SECTION-2 START */
+
+
+.card-section-1 h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Londrina Solid, cursive;
+    font-weight: 500;
+    margin: 40px;
+}
+
+.card-section-1 .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0px 13px;
+}
+
+.card-section-1 .cards {
+    padding: 25px 30px;
+    width: 23%;
+    border: 2px solid white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px gray;
+}
+
+.card-section-1 .cards .card-image {
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+}
+
+
+.card-section-1 .cards .card-image .front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+}
+
+.card-section-1 .cards .card-image .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+}
+
+.card-section-1 .cards .card-image .Card-Hover-Icons {
+    position: absolute;
+    top: 0%;
+    left: 90%;
+}
+
+.card-section-1 .cards .card-image .Card-Hover-Icons .Card-Icon {
+    color: black;
+    text-align: center;
+    width: 40px;
+    margin: 2px;
+    background: white;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .06);
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateX(55px);
+}
+
+.card-section-1 .cards .card-image .Card-Hover-Icons .Card-Icon:hover {
+    background: #ffa200;
+    color: #fff;
+}
+
+.card-section-1 .cards .card-image .hot,
+.card-section-1 .cards .card-image .temp {
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 12px;
+    min-width: 50px;
+    font-family: sans-serif;
+    line-height: 18px;
+    border-radius: 50px;
+    background: #25c848;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.card-section-1 .cards .card-image .temp {
+    top: 25px;
+    padding: 0 8px;
+    background: #ff2b00;
+}
+
+
+.card-section-1 .cards .card-image:hover .back {
+    transform: rotateY(180deg);
+}
+
+.card-section-1 .cards .card-image:hover .front {
+    transform: rotateY(0deg);
+}
+
+.card-section-1 .cards .card-image:hover .Card-Icon {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.card-section-1 .cards .card-info {
+    padding: 5px;
+}
+
+.card-section-1 .cards .card-info p {
+    font-size: 18px;
+    color: #ffa200;
+    font-weight: 500;
+    font-family: Londrina Solid, cursive;
+}
+
+.card-info .line {
+    text-decoration: line-through;
+    color: gray;
+    padding-right: 10px;
+}
+
+.card-info .stars {
+    float: right;
+    font-size: 16px;
+    padding: 0px 5px;
+    color: #ccc;
+}
+
+.card-section-1 .cards .card-info .span-btn {
+    display: inline-block;
+    color: #ccc;
+    border: 1px solid #ccc;
+    line-height: 25px;
+    padding: 0 7px;
+    margin: 5px 0px;
+    cursor: pointer;
+    font-size: 13px;
+    min-width: 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.card-section-1 .cards .card-info .span-btn:hover {
+    background: #ffa200;
+    border: 1px solid #ffa200;
+}
+
+.card-section-1 .cards .card-info h6 {
+
+    margin-bottom: 0.5rem;
+    font-family: Londrina Solid, cursive;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.card-section-1 .cards .card-info h6:hover {
+    color: #FFA200;
+
+}
+
+
+/* SECTION-2 END */
+
+
+/* SLIDER-2 START  */
+
+.slider-2 {
+    background: url(../Images/Slider-2_Banner-1-2.jpg);
+    background-position: center center;
+    height: 75vh;
+    margin: 100px 0px;
+}
+
+.slider-2 .banner-info-2 {
+    float: right;
+    margin: 140px 0px;
+    width: 545px;
+}
+
+
+.slider-2 .banner-info-2 img {
+    height: 38px;
+    width: 279px;
+    margin: 15px 0px;
+}
+
+.slider-2 .banner-info-2 h1 {
+    position: relative;
+    font-family: 'Londrina Solid';
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 50px;
+    color: #000;
+}
+
+.slider-2 .banner-info-2 h3 {
+    font-family: sans-serif;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    margin: 5px 0px;
+}
+
+
+.slider-2 .banner-info-2 button {
+    color: white;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    border: 2px solid transparent;
+    margin: 20px 0px;
+    font-size: 14px;
+    background-color: #F28000;
+    border-radius: 50px;
+    padding: 15px 40px;
+    transition: 0.5s;
+}
+
+.slider-2 .banner-info-2 button:hover {
+    background-color: black;
+}
+
+/* SLIDER-2 END  */
+
+/* SECTION-3 START */
+
+.card-section-2 h1 {
+    text-align: left;
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 35px 50px;
+}
+
+/* SECTION-3 END */
+
+/* SLIDER-3 START  */
+
+.slider-3 {
+    background: url(../Images/Slider-3_Banner.jpg);
+    background-position: center center;
+    margin-bottom: 0px;
+}
+
+.slider-3 .banner-info-3 {
+    float: left;
+    margin: 140px 150px;
+}
+
+.slider-3 .banner-info-3 button {
+    background-color: #D95927;
+    transition: 0.5s;
+}
+
+/* SLIDER-3 END  */
+
+/* FOOTER START  */
+
+.footer {
+    background: url(../Images/Footer_Banner.jpg);
+    background-position: center center;
+}
+
+.footer .part-1 {
+    padding: 40px 90px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.footer .part-1 .footer-info-1 {
+    margin: 0px;
+}
+
+.footer .part-1 .footer-info-1 h2 {
+    color: #FFFFFF;
+    margin: 25px 0px;
+    font-family: Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0.6px;
+}
+
+.footer .part-1 .footer-info-1 span {
+    font-family: Sans-serif;
+    color: #FFA200;
+    font-size: 35px;
+}
+
+.footer .part-1 .footer-info-1 p {
+    font-family: Sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 15px 0px;
+    letter-spacing: 1px;
+}
+
+.footer .part-1 .footer-info-1 ul {
+    list-style: none;
+}
+
+.footer .part-1 .footer-info-1 li {
+    margin: 15px 0px;
+}
+
+.footer .part-1 .footer-info-1 li a {
+    font-family: Sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+
+.footer .part-1 .footer-info-1 li a:hover {
+    color: #FFA200;
+}
+
+.footer .part-2 {
+    padding: 20px 85px;
+}
+
+.footer .part-2 .footer-info-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #FFA200;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.footer .part-2 .footer-info-input p {
+    font-size: 26px;
+    font-family: Londrina Solid, cursive;
+    font-weight: 500;
+}
+
+.footer .part-2 .footer-info-input input {
+    background: #ffce78;
+    border-radius: 50px;
+    width: 65%;
+    border: 0;
+    text-align: center;
+}
+
+.footer .part-2 .footer-info-input button {
+    border-radius: 50px;
+    background: #ffce78;
+    border: 0;
+    padding: 0 25px;
+    cursor: pointer;
+    height: 40px;
+    font-size: 18px;
+    font-family: Londrina Solid, cursive;
+}
+
+.footer .part-2 .footer-info-input button:hover {
+    background-color: black;
+    color: white;
+}
+
+.footer .part-2 .footer-info-copyright {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 35px 0px;
+}
+
+.footer .part-2 .footer-info-copyright p {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+/* FOOTER END  */
+
+
+.errow-top-button a {
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 70px;
+    color: white;
+    right: 30px;
+    z-index: 9;
+    transform: translateY(15px);
+    cursor: pointer;
+    background: #ffa200;
+    border-radius: 50px;
+}
+
+.errow-top-button a:hover {
+    background: #cc8200;
+}

@@ -1,0 +1,144 @@
+@media(max-width:500px) {
+
+    * {
+        max-width: 100%;
+    }
+
+    .Header {
+        padding: 10px;
+    }
+
+    .Header span a {
+        display: block;
+    }
+
+    .Header .nav,
+    .Header .contact {
+        display: none;
+    }
+
+    .slider {
+        height: 42vh;
+        background-position: center center;
+    }
+
+    .slider .slider1_content {
+        padding-top: 100px;
+    }
+
+    .slider h3 {
+        font-size: 13px;
+    }
+
+    .slider h3::after {
+        left: 63%;
+    }
+
+    .slider h1 {
+        font-size: 23px;
+        margin: 8px;
+    }
+
+    .slider button {
+        padding: 8px 16px;
+        margin: 5px;
+        font-size: 11px;
+    }
+
+    .section-1 .part-1 {
+        margin: 15px;
+        padding: 0;
+    }
+
+    .section-1 .part-1 .section-1_part-1_details {
+        margin: 15px auto;
+    }
+
+    .section-1 .part-1 .section-1_part-1_errow {
+        display: none;
+    }
+
+    .section-1 .part-2 {
+        margin: 45px 0px;
+    }
+
+    .section-1 .part-2 .section-1_part-2_details-1 {
+        width: auto;
+        margin: 15px;
+    }
+
+    .card-section-1 .cards {
+        width: 75%;
+        margin: 13px auto;
+    }
+
+    .slider-2 {
+        margin: 60px 0px;
+        background-size: 165% 100%;
+        height: 42vh;
+    }
+
+    .slider-2 .banner-info-2 {
+        margin: 35px auto;
+        text-align: center;
+    }
+
+    .slider-2 .banner-info-2 h1 {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+
+    .slider-2 .banner-info-2 button {
+        margin: 15px auto;
+        font-size: 13px;
+        padding: 9px 33px;
+    }
+
+    .card-section-2 h1 {
+        margin: 35px 73px;
+    }
+
+    .footer {
+        padding: 40px;
+    }
+
+    .footer .part-1 {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .footer .part-1 .footer-info-1 {
+        margin: 10px 0px;
+    }
+
+    .footer .part-2 {
+        padding: 0;
+    }
+
+    .footer .part-2 .footer-info-input {
+        padding: 30px 20px;
+    }
+
+    .footer .part-2 .footer-info-input p {
+        margin: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .part-2 .footer-info-input input {
+        width: 60%;
+    }
+
+    .footer .part-2 .footer-info-copyright {
+        margin: 20px 0px;
+    }
+
+    .footer .part-2 .footer-info-copyright p {
+        margin: 13px 0px;
+    }
+
+    .errow-top-button a {
+        right: 80px;
+    }
+
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Essentials And Advanced</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+    <form class="form">
+        <h1>Responsive Registration Form</h1>
+        <p><i class="fa-solid fa-envelope"></i><input type="email" placeholder="Email :" required></p>
+        <p><i class="fa-solid fa-lock"></i><input type="text" placeholder="Password :" maxlength="10" required></p>
+        <p><i class="fa-solid fa-lock"></i><input type="text" placeholder="Re-type Password :" maxlength="10" required></p>
+        <p><i class="fa-solid fa-user"></i><input type="text" placeholder="Firs Name :" pattern="[a-zA-z]+" required
+            title="Only letters...!"></p>
+        <p><i class="fa-solid fa-user"></i><input type="text" placeholder="Last Name :" pattern="[a-zA-z]+" required
+            title="Only letters...!"></p>
+        <p><input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female</p>
+        <p><select class="select">
+            <option disabled selected> --- Select your Country --- </option>  <option hidden> --- Select your Country --- </option>
+            <option> India </option>
+            <option > USA </option>
+            <option> UAE </option>
+            <option> Australia </option>
+        </select></p>
+        <p><input type="checkbox" name="" id="">I agree terms and conditions</p>
+        <p><input type="checkbox" name="" id="">I want to receive the newsletter</p>
+        <input class="btn" type="button" value="Register">
+    </form>
+</div>
+</body>
+
+</html>

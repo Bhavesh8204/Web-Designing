@@ -1,0 +1,51 @@
+
+1. What are the advantages of Bootstrap?
+-->
+1. Easy initiation. Coding is a hurricane task for a person who is unbeknownst to web development. ...
+2. Responsiveness. ...
+3. Highly customizable. ...
+4. Extremely user-centric. ...
+5. Top-notch support. ...
+6. Cross-browser compatibility. ...
+7. JavaScript plugins to your rescue. ...
+8. Far-reaching popularity.
+
+2. What is a Bootstrap Container, and how does it work?
+-->
+Containers are the most basic layout element in Bootstrap and are required when using our default grid system.
+
+3. What are the default Bootstrap text settings?
+-->
+Bootstrap uses a default font-size of 16px, and its line-height is 1.5. 
+
+4. What do you know about the Bootstrap Grid System?
+-->
+Bootstrap's grid system uses a series of containers, rows, and columns to layout and align content.
+
+5. What is the difference between Bootstrap 4 and Bootstrap 5
+-->
+BASIS OF Grid System Internet Explorer Gutter	
+
+6. What is a Button Group, and what is the class for a basic Button Group?
+-->
+Button groups allow multiple buttons to be stacked together on a single line.
+
+7. How can you use Bootstrap to make thumbnails?
+-->
+Bootstrap - Thumbnails
+
+1. Add an <a> tag with the class of . thumbnail around an image.
+2. This adds four pixels of padding and a gray border.
+3. On hover, an animated glow outlines the image.
+
+8. In Bootstrap 4, what is flexbox?
+-->
+Flexbox is used to quickly manage the layout, alignment and sizing of grid columns, navigation, components, and more with a full suite of responsive flexbox utilities.
+
+9.  How can one create an alert in Bootstrap?
+-->
+Bootstrap provides an easy way to create predefined alert messages: × Success! This alert box indicates a successful or positive action.
+
+10. What is a bootstrap card and how would you create one?
+-->
+A card is a flexible and extensible content container. 

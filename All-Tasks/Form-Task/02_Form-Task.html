@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/Form_Logo.webp">
+    <title> Form Task</title>
+    <style>
+        * {
+
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .background {
+            background-image: url(Images/Form_bg_02.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 1536px;
+            height: 713px;
+            padding: 110px;
+            box-sizing: border-box;
+        }
+
+        .form {
+            background-color: white;
+            height: 510px;
+            width: 510px;
+            margin: 0px 180px;
+            text-align: center;
+        }
+
+        .information {
+            background-color: rgba(61, 19, 61, 0.9);
+            height: 460px;
+            width: 460px;
+            margin: -485px 690px;
+            text-align: left;
+        }
+
+        h1 {
+            padding: 100px 124px 25px 0px;
+            font-size: 36px;
+        }
+
+        h2 {
+            padding: 155px 0px 16px 60px;
+            font-size: 28px;
+            color: white;
+        }
+
+        .p2 {
+            font-size: 10px;
+            padding: 0px 63px;
+            color: white;
+        }
+
+        .p1 {
+            font-size: 10px;
+            margin: 7px 118px 0px 0px;
+            color: gray;
+        }
+
+        input {
+            border: 2px groove white;
+            margin: 8px 0px;
+            padding: 8px 38px;
+            border-radius: 18px;
+            box-shadow: 0px 0px 3px;
+
+        }
+
+        input:hover, .p1 {
+            cursor: pointer;
+
+        }
+
+        .btn {
+            background: linear-gradient(45deg, #d8b815, #8800ff);
+            color: white;
+            padding: 10px 98px;
+            border-radius: 25px;
+        }
+
+        .btn1 {
+            background-color: transparent;
+            color: white;
+            border-radius: 13px;
+            box-shadow: none;
+            margin: 2px 62px;
+            padding: 4px 13px;
+        }
+
+        .btn:hover {
+            background: linear-gradient(219deg, #d8b815, #8800ff);
+            border: 3px double white;
+        }
+
+        .btn1:hover {
+            border: 3px double white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <form action="">
+            <div class="form">
+                <h1>Sign In</h1>
+
+                <input type="text" placeholder="Name" required>
+                <br>
+                <input type="password" placeholder="******" required maxlength="6">
+                <br>
+                <br>
+                <input class="btn" type="submit" value="SING IN">
+                <p class="p1">Forgot Your Password?</p>
+            </div>
+        </form>
+        <div class="information">
+            <h2>Sign Up</h2>
+
+            <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni minima repellendus, non,
+                facilis
+                laudantium blanditiis deleniti asperiores assumenda. Ut</p>
+            <br>
+            <input class="btn1" type="submit" value="Sign Up">
+        </div>
+    </div>
+</body>
+
+</html>

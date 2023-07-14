@@ -1,0 +1,130 @@
+/* Contact Form */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    background: #b4d3dd;
+    margin: 80px auto;
+    height: 570px;
+    width: 750px;
+    padding: 25px;
+}
+
+.contact-form h1 {
+    font-size: 23px;
+    FONT-WEIGHT: 600;
+    margin-bottom: 23px;
+}
+
+.contact-form .contact-form-part-1 {
+    display: flex;
+    background: white;
+    padding: 20px 13px;
+}
+
+.contact-form .contact-form-part-1 .part-1 {
+    width: 34%;
+    color: gray;
+    font-weight: 600;
+}
+
+.contact-form .contact-form-part-1 .part-1 h2 {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.contact-form .contact-form-part-1 .part-1 p {
+    font-size: 15px;
+}
+
+.contact-form .contact-form-part-1 .part-2 {
+    font-weight: 600;
+    width: 38%;
+    padding-top: 23px;
+}
+
+.contact-form .contact-form-part-1 .part-2 .number1 {
+    margin-bottom: 2px;
+    color: #d44949;
+}
+
+.contact-form .contact-form-part-1 .part-2 .number1 span {
+    background: #d44949;
+    color: white;
+    font-size: 11px;
+    padding: 3px 3px 1px 3px;
+    border-radius: 3px;
+}
+
+.contact-form .contact-form-part-1 .part-2 .email1 {
+    margin-top: 2px;
+    color: darkturquoise;
+}
+
+.contact-form .contact-form-part-1 .part-2 .email1 span {
+    background: darkturquoise;
+    color: white;
+    font-size: 11px;
+    padding: 3px 3px 1px 3px;
+    border-radius: 3px;
+}
+
+.contact-form .contact-form-part-1 .part-3 {
+    margin: auto;
+}
+
+.contact-form .contact-form-part-1 .part-3 i {
+    font-size: 26px;
+    color: #d44949;
+    cursor: pointer;
+}
+
+.contact-form .contact-form-part-2 {
+    display: flex;
+    padding: 15px;
+    font-weight: 500;
+    background: white;
+    margin-top: 18px;
+}
+
+.contact-form .contact-form-part-2 .form input {
+    padding: 8px 5px;
+    margin: 5px 2px;
+}
+
+.contact-form .contact-form-part-2 .form textarea {
+    padding: 6px 23px 6px 6px;
+    margin: 10px 0px;
+}
+
+.contact-form .contact-form-part-2 .form button {
+    background: #d44949;
+    border: 2px solid transparent;
+    padding: 5px 9px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+}
+
+.contact-form .contact-form-part-2 .map-erea {
+    padding: 5px;
+}
+
+.contact-form .contact-form-part-2 .map-erea .icons{
+    margin-top: 4px;
+}
+
+.contact-form .contact-form-part-2 .map-erea .icons i {
+    padding: 6px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}

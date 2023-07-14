@@ -1,0 +1,25 @@
+1. What is jQuery?
+--> 
+jQuery is a lightweight, "write less, do more", JavaScript library. The purpose of jQuery is to make it much easier to use JavaScript on your website. 
+
+2. How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery ,
+JQuery Animation?
+-->
+jQuery - Get and Set CSS Classes
+
+1. addClass() - Adds one or more classes to the selected elements.
+2. removeClass() - Removes one or more classes from the selected elements.
+3. toggleClass() - Toggles between adding/removing classes from the selected elements.
+4. css() - Sets or returns the style attribute.
+
+3. How to create slider with animation?
+-->
+Table of Contents:
+
+1. Step 1: Come up with a strategy for the slider.
+2. Step 2: Update the background image in each slide.
+3. Step 3: Update the text layers in each slide.
+4. Step 4: Edit the button text and design in each slide.
+5. Step 5: Edit the slider navigation.
+
+ 

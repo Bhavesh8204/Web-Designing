@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/Form_Logo.webp">
+    <title> Form Task</title>
+
+    <style>
+        * {
+            font-weight: bold;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .background {
+            background-image: url(Images/Form_bg_01.jpg);
+            width: 1536px;
+            height: 713px;
+            padding: 110px;
+            box-sizing: border-box;
+        }
+
+        .form {
+            border-radius: 8px;
+            background-color: white;
+            height: 495px;
+            width: 295px;
+            margin: auto;
+            text-align: center;
+        }
+
+        h1 {
+            padding: 55px 0px 35px 0px;
+            font-size: 36px;
+        }
+
+        input {
+            border: 2px groove white;
+            margin: 7px 0px;
+            padding: 8px 30px;
+            border-radius: 13px;
+            box-shadow: 0px 0px 3px;
+        }
+
+        input:hover,
+        img {
+            cursor: pointer;
+
+        }
+
+        .btn {
+            background-color: blueviolet;
+            color: white;
+            border-radius: 25px;
+        }
+
+        .btn:hover {
+            background-color: rgb(98 20 171);
+        }
+
+        .logo {
+            font-weight: normal;
+            margin: 30px;
+            font-size: 9px;
+        }
+
+        .logo img {
+            height: 25px;
+            width: 48px;
+            margin: 11px -7px;
+        }
+
+        .text {
+            margin: 55px;
+            padding: 16px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div class="background">
+            <div class="form">
+                <h1>Sign In</h1>
+
+                <input type="text" placeholder="username or email" required>
+                <br>
+                <input type="password" placeholder="password" required maxlength="8">
+                <br>
+                <br>
+                <input class="btn" type="submit" value="SING IN">
+
+                <div class="logo">
+                    Or login with
+                    <br>
+                    <a href="https://www.facebook.com" target="_blank"><img src="Images/facebook_logo.jpg"
+                            alt="Facebook.com"></a>
+                    <a href="https://www.google.com" target="_blank"><img src="Images/google_logo.png" alt="Google.com"></a>
+                </div>
+                <p class="text">Sign Up</p>
+
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
