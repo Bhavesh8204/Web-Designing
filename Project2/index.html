@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark d-flex fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-2" href="#">Logis</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 fw-bold text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-primary fw-bold" type="submit">Get a Quote</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+
+            <div class="container">
+
+                <div class="hero-section row d-flex justify-content-between align-items-center py-5 my-5">
+
+                    <div class="hero-left col-sm-12 col-md-12 col-lg-6 col-xl-6 text-light">
+                        <h1 class="display-5 fw-bold py-3">Your Lightning Fast Delivery Partner</h1>
+                        <p class="pb-4">Facere distinctio molestiae nisi fugit tenetur repellat non praesentium nesciunt
+                            optio quis sit odio nemo quisquam. eius quos reiciendis eum vel eum voluptatem eum maiores
+                            eaque id optio ullam occaecati odio est possimus vel reprehenderit</p>
+                        <div class="inp border bg-light rounded d-flex justify-content-between align-items-center">
+                            <div class="inp-one ">
+                                <input type="text" name="" id="" placeholder="ZIP code or City" class="border-0 ps-2">
+                            </div>
+                            <div class="butn-one">
+                                <button class="btn btn-primary px-4 py-3">Search</button>
+                            </div>
+                        </div>
+
+                        <div class="number row d-flex justify-content-between align-items-center p-5 text-center">
+                            <div class="numb-one col-5 col-sm-5 col-md-3 col-xl-3">
+                                <h3>232</h3>
+                                <div class="brdr border border-2 mb-2"></div>
+                                <p>Clients</p>
+                            </div>
+                            <div class="numb-one col-5 col-sm-5 col-md-3 col-xl-3">
+                                <h3>521</h3>
+                                <div class="brdr border border-2 mb-2"></div>
+                                <p>Projects</p>
+                            </div>
+                            <div class="numb-one col-5 col-sm-5 col-md-3 col-xl-3">
+                                <h3>1453</h3>
+                                <div class="brdr border border-2 mb-2"></div>
+                                <p>Support</p>
+                            </div>
+                            <div class="numb-one col-5 col-sm-5 col-md-3 col-xl-3">
+                                <h3>32</h3>
+                                <div class="brdr border border-2 mb-2"></div>
+                                <p>Workers</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-right col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        <img src="assets/hero-img.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+
+
+    <section>
+
+        <div class="container">
+
+            <div class="aboutus pt-4">
+
+                <div class="about-top d-flex row">
+
+                    <div class="about-one d-flex col-sm-12 col-md-6 col-lg-4 py-3">
+                        <div class="icon p-2">
+                            <i class="fa-solid fa-truck-fast fa-4x"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Lorem Ipsum</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum minima id qui ipsa
+                                blanditiis asperiores?</p>
+                            <h6>Learn More <i class="fa-solid fa-arrow-right"></i></h6>
+                        </div>
+                    </div>
+
+                    <div class="about-one d-flex col-sm-12 col-md-6 col-lg-4 py-3">
+                        <div class="icon p-2">
+                            <i class="fa-solid fa-truck-fast fa-4x"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Lorem Ipsum</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum minima id qui ipsa
+                                blanditiis asperiores?</p>
+                            <h6>Learn More <i class="fa-solid fa-arrow-right"></i></h6>
+                        </div>
+                    </div>
+
+                    <div class="about-one d-flex col-sm-12 col-md-6 col-lg-4 py-3">
+                        <div class="icon p-2">
+                            <i class="fa-solid fa-truck-fast fa-4x"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Lorem Ipsum</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum minima id qui ipsa
+                                blanditiis asperiores?</p>
+                            <h6>Learn More <i class="fa-solid fa-arrow-right"></i></h6>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="about-main row d-flex justify-content-between align-items-center py-5">
+
+                    <div class="about-main-left col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        <h2 class="text-primary fw-bold">About Us</h2>
+                        <p>Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti.
+                            Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius
+                            incidunt reiciendis veritatis asperiores placeat.</p>
+
+                        <div class="about-main-one d-flex py-2">
+                            <div class="icon pe-3"><i class="fa-solid fa-network-wired fa-3x text-primary"></i></div>
+                            <div class="about-main-text">
+                                <h5>
+                                    Ullamco laboris nisi ut aliquip consequat</h5>
+                                <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                            </div>
+                        </div>
+
+                        <div class="about-main-one d-flex py-2">
+                            <div class="icon pe-3"><i class="fa-solid fa-network-wired fa-3x text-primary"></i></div>
+                            <div class="about-main-text">
+                                <h5>
+                                    Ullamco laboris nisi ut aliquip consequat</h5>
+                                <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                            </div>
+                        </div>
+
+                        <div class="about-main-one d-flex py-2">
+                            <div class="icon pe-3"><i class="fa-solid fa-network-wired fa-3x text-primary"></i></div>
+                            <div class="about-main-text">
+                                <h5>
+                                    Ullamco laboris nisi ut aliquip consequat</h5>
+                                <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-main-right col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        <img src="assets/about.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="container">
+
+            <div class="our-services">
+
+                <h2 class="text-center p-5 fw-bold text-primary">OUR SERVICES</h2>
+
+
+                <div class="all-services row d-flex">
+
+                    <div class="one-card col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+                        <div class="card all-srvc-card" style="width: 100%;">
+                            <div class="ovrflw">
+                                <img src="assets/storage-service.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">STORAGE</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one-card col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+                        <div class="card all-srvc-card" style="width: 100%;">
+                            <div class="ovrflw">
+                                <img src="assets/logistics-service.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">LOGISTICS</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one-card col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+                        <div class="card all-srvc-card" style="width: 100%;">
+                            <div class="ovrflw">
+                                <img src="assets/cargo-service.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">CARGO</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one-card col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+                        <div class="card all-srvc-card" style="width: 100%;">
+                            <div class="ovrflw">
+                                <img src="assets/trucking-service.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">TRUCKING</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one-card col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+                        <div class="card all-srvc-card" style="width: 100%;">
+                            <div class="ovrflw">
+                                <img src="assets/packaging-service.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">PACKAGING</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="one-card col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+                        <div class="card all-srvc-card" style="width: 100%;">
+                            <div class="ovrflw">
+                                <img src="assets/warehousing-service.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">WAREHOUSING</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+
+        <div class="action text-center text-light">
+
+            <h2 class="fw-bold">Call to Action</h2>
+            <p class="px-5 fs-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.</p>
+            <button class="action-butn btn bg-trasparent fw-bold px-5 py-2 border-light text-light">Call To
+                Action</button>
+        </div>
+    </section>
+
+    <section>
+
+
+        <div class="container py-5">
+
+            <div class="corporate-one row d-flex justify-content-between align-items-center">
+
+                <div class="copr-left col-sm-12 col-md-12 col-lg-5 col-xl-5 ">
+                    <img src="assets/features-1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="copr-right col-sm-12 col-md-12 col-lg-7 col-xl-7 pt-3">
+                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                    <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua</p>
+                    <li class="py-1">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li class="py-1">Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li class="py-1">Ullam est qui quos consequatur eos accusamus.</li>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5">
+
+            <div class="corporate-one row d-flex justify-content-between align-items-center">
+
+                <div class="copr-left col-sm-12 col-md-12 col-lg-7 col-xl-7 pt-3">
+                    <h3>Corporis temporibus maiores provident</h3>
+                    <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+
+                <div class="copr-right col-sm-12 col-md-12 col-lg-5 col-xl-5 ">
+                    <img src="assets/features-2.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5">
+
+            <div class="corporate-one row d-flex justify-content-between align-items-center">
+
+                <div class="copr-left col-sm-12 col-md-12 col-lg-5 col-xl-5 ">
+                    <img src="assets/features-3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="copr-right col-sm-12 col-md-12 col-lg-7 col-xl-7 pt-3">
+                    <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
+                    <p class="fst-italic">Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima
+                        quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+                    <li class="py-1">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li class="py-1"> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li class="py-1"> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5">
+
+            <div class="corporate-one row d-flex justify-content-between align-items-center">
+
+                <div class="copr-left col-sm-12 col-md-12 col-lg-7 col-xl-7 pt-3">
+                    <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
+                    <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+
+                <div class="copr-right col-sm-12 col-md-12 col-lg-5 col-xl-5 ">
+                    <img src="assets/features-4.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section>
+
+        <div class="container py-5">
+
+            <h2 class="text-center pb-5 fw-bold text-primary">PRICING</h2>
+
+            <div class="all-price-card row d-flex">
+
+                <div class="price-one-card col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow border-0" style="width: 100%;">
+                        <div class="card-body p-5">
+                            <h5 class="card-title py-3">Free Plan</h5>
+                            <h6 class="card-subtitle pb-5 text-primary fw-bold fs-2">Rs.0<span
+                                    class="text-muted fs-5">/month</span></h6>
+                            <li class="pb-3 text-secondary">Quam adipiscing vitae proin</li>
+                            <li class="pb-3 text-secondary">Quam adipiscing vitae proin</li>
+                            <li class="pb-3 text-secondary">Quam adipiscing vitae proin</li>
+                            <li class="text-decoration-line-through pb-3 text-secondary">Quam adipiscing vitae proin
+                            </li>
+                            <li class="text-decoration-line-through pb-5 text-secondary">Quam adipiscing vitae proin
+                            </li>
+                            <button class="btn text-primary border-primary py-2 px-4 fw-bold">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price-one-card col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow border-0 " style="width: 100%;">
+                        <div class="card-body p-5">
+                            <h5 class="card-title py-3">Business Plan</h5>
+                            <h6 class="card-subtitle pb-5 text-primary fw-bold fs-2">Rs.29<span
+                                    class="text-muted fs-5">/month</span></h6>
+                            <li class="pb-3">Quam adipiscing vitae proin</li>
+                            <li class="pb-3">Quam adipiscing vitae proin</li>
+                            <li class="pb-3">Quam adipiscing vitae proin</li>
+                            <li class="text-decoration-line-through pb-3">Quam adipiscing vitae proin</li>
+                            <li class="text-decoration-line-through pb-5">Quam adipiscing vitae proin</li>
+                            <button class="btn text-primary border-primary py-2 px-4 fw-bold">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price-one-card col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow border-0" style="width: 100%;">
+                        <div class="card-body p-5">
+                            <h5 class="card-title py-3">Developer Plan</h5>
+                            <h6 class="card-subtitle pb-5 text-primary fw-bold fs-2">Rs.49<span
+                                    class="text-muted fs-5">/month</span></h6>
+                            <li class="pb-3">Quam adipiscing vitae proin</li>
+                            <li class="pb-3">Quam adipiscing vitae proin</li>
+                            <li class="pb-3">Quam adipiscing vitae proin</li>
+                            <li class="text-decoration-line-through pb-3">Quam adipiscing vitae proin</li>
+                            <li class="text-decoration-line-through pb-5">Quam adipiscing vitae proin</li>
+                            <button class="btn text-primary border-primary py-2 px-4 fw-bold">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="container-fluid p-0">
+
+            <div class="review">
+
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0"
+                            class="active carousel-indicators-buttn"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"
+                            class="carousel-indicators-buttn"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"
+                            class="carousel-indicators-buttn"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/hero-bg.png" alt="Los Angeles" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <img src="assets/john.jpg" alt="" class="img-fluid rounded-pill">
+                                <h3>John Larson</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla aliquid at mollitia
+                                    obcaecati. Exercitationem ducimus dolorem consectetur dicta veniam modi impedit
+                                    facilis doloremque maxime repellendus.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/hero-bg.png" alt="Chicago" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <img src="assets/goodman.jpg" alt="" class="img-fluid rounded-pill">
+                                <h3>Soul Goodman</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea delectus perferendis
+                                    illum inventore fugit odit unde provident? Neque sed totam consequatur minima quas,
+                                    perspiciatis necessitatibus?</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/hero-bg.png" alt="New York" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <img src="assets/sara.jpg" alt="" class="img-fluid rounded-pill">
+                                <h3>Sara Wilsson</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat ex necessitatibus
+                                    ea earum, assumenda sint eaque libero et fuga culpa corrupti blanditiis obcaecati
+                                    reprehenderit perspiciatis!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="container">
+
+            <div class="question-all my-5">
+                <h2 class="text-center p-5 text-primary">FREQUENTLY ASKED QUESTIONS</h2>
+
+                <div class="que container p-2 mb-2 bg-light">
+                    <h6 id="flip" class="flip-one fs-5 "> <i class="fa-regular fa-circle-question"></i>
+                        Non consectetur a erat nam at lectus urna duis?
+                    </h6>
+                    <p id="panel" class="panel-one">
+                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                        curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    </p>
+                </div>
+
+                <div class="que container p-2 mb-2 bg-light">
+                    <h6 id="flip" class="flip-two fs-5"> <i class="fa-regular fa-circle-question"></i>
+                        Non consectetur a erat nam at lectus urna duis?
+                    </h6>
+                    <p id="panel" class="panel-two">
+                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                        curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    </p>
+                </div>
+
+                <div class="que container p-2 mb-2 bg-light">
+                    <h6 id="flip" class="flip-three fs-5"> <i class="fa-regular fa-circle-question"></i>
+                        Non consectetur a erat nam at lectus urna duis?
+                    </h6>
+                    <p id="panel" class="panel-three">
+                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                        curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    </p>
+                </div>
+
+                <div class="que container p-2 mb-2 bg-light">
+                    <h6 id="flip" class="flip-four fs-5"> <i class="fa-regular fa-circle-question"></i>
+                        Non consectetur a erat nam at lectus urna duis?
+                    </h6>
+                    <p id="panel" class="panel-four">
+                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                        curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    </p>
+                </div>
+
+                <div class="que container p-2 mb-2 bg-light">
+                    <h6 id="flip" class="flip-five fs-5"> <i class="fa-regular fa-circle-question"></i>
+                        Non consectetur a erat nam at lectus urna duis?
+                    </h6>
+                    <p id="panel" class="panel-five">
+                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                        curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-dark p-5">
+
+        <div class="container">
+
+            <div class="footer-main row d-flex justify-content-between">
+                <div class="ftr-one col-sm-12 col-md-12 col-lg-12 col-xl-4 text-light mb-4">
+                    <h2 class="fw-bold">Logis</h2>
+                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
+                        valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                    <div class="all-media d-flex">
+                        <div class="icon-one p-2 border me-2"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="icon-one p-2 border me-2"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="icon-one p-2 border me-2"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="icon-one p-2 border"><i class="fa-brands fa-twitter"></i></div>
+                    </div>
+                </div>
+
+                <div class="ftr-two col-sm-12 col-md-6 col-lg-6 col-xl-2 text-light mb-4">
+                    <h4>Useful Links</h4>
+                    <ul class="nav d-block">
+                        <li class=""><a href="" class="nav-link px-1 text-light">Home</a></li>
+                        <li class=""><a href="" class="nav-link px-1 text-light">About us</a></li>
+                        <li class=""><a href="" class="nav-link px-1 text-light">Services</a></li>
+                        <li class=""><a href="" class="nav-link px-1 text-light">Terms of service</a></li>
+                        <li class=""><a href="" class="nav-link px-1 text-light">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="ftr-two col-sm-12 col-md-6 col-lg-6 col-xl-2 text-light mb-4">
+                    <h4>Our Services</h4>
+                    <ul class="nav d-block">
+                        <li class=""><a href="" class="nav-link px-1 text-light">Web Design</a></li>
+                        <li class=""><a href="" class="nav-link px-1 text-light">Web Development</a></li>
+                        <li class=""><a href="" class="nav-link px-1 text-light">Product Management</a></li>
+                        <li class=""><a href="" class="nav-link px-1 text-light">Marketing</a></li>
+                        <li class=""><a href="" class="nav-link px-1 text-light">Graphic Design</a></li>
+                    </ul>
+                </div>
+
+                <div class="ftr-four col-sm-12 col-md-12 col-lg-6 col-xl-3 text-light">
+                    <h4>Contact Us</h4>
+                    <p>A108 Adam Street
+                        New York, NY 535022
+                        United States</p>
+                    <h6>Phone: <span> +1 5589 55488 55</span></h6>
+                    <h6>Phone: <span> +1 5589 55488 55</span></h6>
+                </div>
+            </div>
+
+            <div class="privacy text-center py-5 text-light">
+                <p class="p-0">© Copyright Logis. All Rights Reserved</p>
+                <span>Designed by <a href="" class="outline-none">BootstrapMade</a></span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $(".flip-one").click(function () {
+                $(".panel-one").slideToggle("slow");
+            });
+        });
+
+        $(document).ready(function () {
+            $(".flip-two").click(function () {
+                $(".panel-two").slideToggle("slow");
+            });
+        });
+
+        $(document).ready(function () {
+            $(".flip-three").click(function () {
+                $(".panel-three").slideToggle("slow");
+            });
+        });
+
+        $(document).ready(function () {
+            $(".flip-four").click(function () {
+                $(".panel-four").slideToggle("slow");
+            });
+        });
+
+        $(document).ready(function () {
+            $(".flip-five").click(function () {
+                $(".panel-five").slideToggle("slow");
+            });
+        });
+    </script>
+    <div
+        style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;">
+        <a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank"
+            href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"><img
+                src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"
+                alt="www.000webhost.com"></a></div>
+    <script>function getCookie(t) { for (var e = t + "=", n = decodeURIComponent(document.cookie).split(";"), o = 0; o < n.length; o++) { for (var i = n[o]; " " == i.charAt(0);)i = i.substring(1); if (0 == i.indexOf(e)) return i.substring(e.length, i.length) } return "" } getCookie("hostinger") && (document.cookie = "hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;", location.reload()); var wordpressAdminBody = document.getElementsByClassName("wp-admin")[0], notification = document.getElementsByClassName("notice notice-success is-dismissible"), hostingerLogo = document.getElementsByClassName("hlogo"), mainContent = document.getElementsByClassName("notice_content")[0]; if (null != wordpressAdminBody &¬ification.length > 0 && null != mainContent && new Date().toISOString().slice(0, 10) > '2023-10-29' && new Date().toISOString().slice(0, 10) < '2023-11-27') { var googleFont = document.createElement("link"); googleFontHref = document.createAttribute("href"), googleFontRel = document.createAttribute("rel"), googleFontHref.value = "https://fonts.googleapis.com/css?family=Roboto:300,400,600,700", googleFontRel.value = "stylesheet", googleFont.setAttributeNode(googleFontHref), googleFont.setAttributeNode(googleFontRel); var css = "@media only screen and (max-width: 576px) {#main_content {max-width: 320px !important;} #main_content h1 {font-size: 30px !important;} #main_content h2 {font-size: 40px !important; margin: 20px 0 !important;} #main_content p {font-size: 14px !important;} #main_content .content-wrapper {text-align: center !important;}} @media only screen and (max-width: 781px) {#main_content {margin: auto; justify-content: center; max-width: 445px;}} @media only screen and (max-width: 1325px) {.web-hosting-90-off-image-wrapper {position: absolute; max-width: 95% !important;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} #main_content {margin-left: 5%; max-width: 445px;} .web-hosting-90-off-image-wrapper {position: absolute; display: flex; justify-content: center; width: 100%; }} .web-hosting-90-off-image {max-width: 90%;} .content-wrapper {min-height: 454px; display: flex; flex-direction: column; justify-content: center; z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{box-shadow: 0 2px 4px 0 rgba(255, 69, 70, 0.2); max-width: 350px; border: 0; border-radius: 3px; background-color: #ff4546 !important; padding: 15px 55px !important; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}", style = document.createElement("style"), sheet = window.document.styleSheets[0]; style.styleSheet ? style.styleSheet.cssText = css : style.appendChild(document.createTextNode(css)), document.getElementsByTagName("head")[0].appendChild(style), document.getElementsByTagName("head")[0].appendChild(googleFont); var button = document.getElementsByClassName("upgrade_button_red")[0], link = button.parentElement; link.setAttribute("href", "https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"), link.innerHTML = '<button class="upgrade_button_red_sale">Claim deal</button>', (notification = notification[0]).setAttribute("style", "padding-bottom: 0; padding-top: 5px; background-color: #040713; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-left-color: #040713;"), notification.className = "notice notice-error is-dismissible"; var mainContentHolder = document.getElementById("main_content"); mainContentHolder.setAttribute("style", "padding: 0;"), hostingerLogo[0].remove(); var h1Tag = notification.getElementsByTagName("H1")[0]; h1Tag.className = "000-h1", h1Tag.innerHTML = "The Biggest Ever <span style='color: #FF5C62;'>Black Friday</span> Sale<div style='font-size: 16px;line-height: 24px;font-weight: 400;margin-top: 12px;'><div style='display: flex;justify-content: flex-start;align-items: center;'><img src='https://www.000webhost.com/static/default.000webhost.com/images/generic/green-check-mark.png' alt='' style='margin-right: 10px; width: 20px;'>Managed WordPress Hosting</div><div style='display: flex;justify-content: flex-start;align-items: center;'><img src='https://www.000webhost.com/static/default.000webhost.com/images/generic/green-check-mark.png' alt='' style='margin-right: 10px; width: 20px;'>WordPress Acceleration</div><div style='display: flex;justify-content: flex-start;align-items: center;'><img src='https://www.000webhost.com/static/default.000webhost.com/images/generic/green-check-mark.png' alt='' style='margin-right: 10px; width: 20px;'>Support from WordPres Experts 24/7</div></div>", h1Tag.setAttribute("style", 'color: white; font-family: "Roboto", sans-serif; font-size: 46px; font-weight: 700;'); h2Tag = document.createElement("H2"); h2Tag.innerHTML = "<span style='font-size: 20px'>$</span>2.49<span style='font-size: 20px'>/mo</span>", h2Tag.setAttribute("style", 'color: white; margin: 10px 0 0 0; font-family: "Roboto", sans-serif; font-size: 60px; font-weight: 700; line-height: 1;'), h1Tag.parentNode.insertBefore(h2Tag, h1Tag.nextSibling); var paragraph = notification.getElementsByTagName("p")[0]; paragraph.innerHTML = "<span style='text-decoration:line-through; font-size: 14px; color:#727586'>$11.99.mo</span><br>+ 2 Months Free", paragraph.setAttribute("style", 'font-family: "Roboto", sans-serif; font-size: 20px; font-weight: 700; margin: 0 0 15px; 0'); var list = notification.getElementsByTagName("UL")[0]; list.remove(); var org_html = mainContent.innerHTML, new_html = '<div class="content-wrapper">' + mainContent.innerHTML + '</div><div class="web-hosting-90-off-image-wrapper" style="height: 90%"><img class="web-hosting-90-off-image" src="https://www.000webhost.com/static/default.000webhost.com/images/sales/bf2023/hero.png"></div>'; mainContent.innerHTML = new_html; var saleImage = mainContent.getElementsByClassName("web-hosting-90-off-image")[0] }else if (null != wordpressAdminBody &¬ification.length > 0 && null != mainContent) { var bulletPoints = mainContent.getElementsByTagName('li'); var replacement = ['Increased performance (up to 5x faster) - Thanks to Hostinger’s WordPress Acceleration and Caching solutions', 'WordPress AI tools - Creating a new website has never been easier', 'Weekly or daily backups - Your data will always be safe', 'Fast and dedicated 24/7 support - Ready to help you', 'Migration of your current WordPress sites to Hostinger is automatic and free!', 'Try Premium Web Hosting now - starting from $1.99/mo']; for (var i = 0; i < bulletPoints.length; i++) { bulletPoints[i].innerHTML = replacement[i]; } }</script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+@media (max-width:768px) {
+    .carousel-caption p {
+        font-size: 12px;
+    }
+}
+@media (max-width:576px) {
+    .action p{
+        padding: 0 !important;
+    }
+
+    .carousel-caption p {
+        font-size: 8px;
+        margin: 0 !important;
+    }
+
+    .carousel-caption h3 {
+        font-size: 12px;
+        margin: 0 !important;
+    }
+
+   
+}
+
+@media (max-width:370px) {
+    .carousel-caption img {
+        width: 18%;
+    }
+}
